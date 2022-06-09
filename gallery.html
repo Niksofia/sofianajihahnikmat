@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body{
+  background-color: lightslategray;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,400;1,500;1,600&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+
+
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+  }
+
+  .container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+  }
+
+  .container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+  }
+
+
+  .container .heading h3 span{
+    font-weight: 100;
+  }
+
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+
+
+</style>
+<body>
+
+  <div class="topnav">
+     <a href="index.html" target="blank">Home</a>
+     <a href="aboutme.html" target="blank">About Me</a>
+      <a href="biodata.html" target="blank">Biodata</a>
+      <a href="family.html" target="blank">Family</a>
+      <a href="education.html" target="blank">Education</a>
+      <a href="friend.html" target="blank">Freind</a  >
+  </div>
+
+<div class="container">
+    <div class="heading">
+      <h3>Photo <span>Gallery</span></h3>
+    </div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="IMages/img 1.jpg" style="width:100%">
+    <img src="IMages/img2.jpg" style="width:100%">
+    <img src="IMages/img3.jpg" style="width:100%">
+    <img src="IMages/img4.jpg" style="width:100%">
+    <img src="IMages/img5.jpg" style="width:100%">
+    <img src="IMages/star of jars2.jpg" style="width:100%">
+    <img src="IMages/table.jpg" style="width:100%">
+    <img src="IMages/flower.jpg" style="width:100%">
+  </div>
+  <div class="column">
+   <img src="IMages/holiday.jpg" style="width:100%">
+    <img src="IMages/holiday2.jpg" style="width:100%">
+    <img src="IMages/img 1.jpg" style="width:100%">
+    <img src="IMages/beach1.jpg" style="width:100%">
+    <img src="IMages/beach3.jpg" style="width:100%">
+    <img src="IMages/star of jars.jpg" style="width:100%">
+    <img src="IMages/cat.jpg" style="width:100%">
+    <img src="IMages/beach.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="IMages/img 1.jpg" style="width:100%">
+    <img src="IMages/img7.jpg" style="width:100%">
+    <img src="IMages/img8.jpg" style="width:100%">
+    <img src="IMages/img4.jpg" style="width:100%">
+    <img src="IMages/img5.jpg" style="width:100%">
+    <img src="IMages/mee.jpg" style="width:100%">
+    <img src="IMages/beach.jpg" style="width:100%">
+    <img src="IMages/view.jpg" style="width:100%">
+    <img src="IMages/flower.jpg" style="width:100%">
+    <img src="IMages/beach.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="IMages/degree1.jpg" style="width:100%">
+    <img src="IMages/degree2.jpg" style="width:100%">
+    <img src="IMages/beach1.jpg" style="width:100%">
+    <img src="IMages/beach2.jpg" style="width:100%">
+    <img src="IMages/beach3.jpg" style="width:100%">
+    <img src="IMages/cat.jpg" style="width:100%">
+    <img src="IMages/cat2.jpg" style="width:100%">
+    <img src="IMages/sunset.jpg" style="width:100%">
+  </div>
+</div>
+
+
+<footer>
+    <p>copyright &copy;2022.designed by niksofia
+</footer>
+
+</body>
+</html>
